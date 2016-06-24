@@ -1,0 +1,30 @@
+Asrock 
+Desktop board P4I65G 
+SOCKET_LGA_1151
+4
+589
+Asrock 
+Z97 KILLER 
+SOCKET_G3
+4
+1139
+MSI 
+Z170 XPOWER Gaming Titanium Edition 
+SOCKET_LGA_1151
+4
+2509
+ASUS
+Type 3
+SOCKET_AM3
+3
+487
+Končar
+DDR2
+SOCKET_LGA_1151
+3
+900
+Đuro Đaković
+1989.
+SOCKET_AM3
+1
+39

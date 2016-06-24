@@ -1,0 +1,35 @@
+
+Proizvođač matične ploče:
+Asrock 
+Tip sučelja matične ploče:
+SOCKET_LGA_1151
+Proizvođač procesora:
+VIA
+Tip sučelja procesora:
+SOCKET_LGA_1151
+Brzina procesora:
+4.2 GHz
+Proizvođač radne memorije:
+Corsair
+Tip radne memorije:
+SDRAM
+Kapacitet radne memorije:
+0.00097657 TB
+Broj modula radne memorije:
+1
+Proizvođač tvrdog diska:
+Fujitsu
+Tip tvrdog diska:
+PATA
+Broj okretaja tvrdog diska:
+4300
+Kapacitet tvrdog diska:
+200 TB
+Cijena matične ploče:
+589 kn
+Cijena procesora:
+549 kn
+Cijena radne memorije:
+149 kn
+Cijena tvrdog diska:
+259 kn

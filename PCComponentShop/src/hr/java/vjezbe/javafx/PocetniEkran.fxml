@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="417.0" prefWidth="1168.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.vjezbe.javafx.PocetniEkranController">
+   <left>
+      <Pane prefHeight="255.0" prefWidth="608.0" BorderPane.alignment="CENTER">
+         <children>
+            <ListView fx:id="lijeviListView" layoutX="8.0" layoutY="27.0" prefHeight="200.0" prefWidth="600.0" />
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <Pane prefHeight="255.0" prefWidth="537.0" BorderPane.alignment="CENTER">
+         <children>
+            <ListView fx:id="desniListView" layoutX="25.0" layoutY="28.0" prefHeight="200.0" prefWidth="529.0">
+               <contextMenu>
+                  <ContextMenu>
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#obrisiKomponentu" text="Obriši" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu></ListView>
+         </children>
+      </Pane>
+   </center>
+   <bottom>
+      <Pane prefHeight="137.0" prefWidth="1168.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="tooltipGumb" layoutX="455.0" layoutY="35.0" mnemonicParsing="false" onAction="#dodajKomponentu" text="Dodaj komponentu &gt;&gt;" />
+            <Button layoutX="554.0" layoutY="74.0" mnemonicParsing="false" onAction="#spremiKonfiguraciju" text="Spremi konfiguraciju" />
+            <Button layoutX="649.0" layoutY="35.0" mnemonicParsing="false" onAction="#obrisiKomponentu" text="&lt;&lt; Obriši komponentu" />
+            <TextField fx:id="ukupnaCijena" alignment="CENTER" layoutX="914.0" layoutY="56.0" />
+            <Label layoutX="914.0" layoutY="27.0" text="Ukupna cijena konfiguracije:" />
+            <Label layoutX="1073.0" layoutY="60.0" text="kn" />
+            <Text layoutX="103.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Odabir datuma:" />
+            <DatePicker fx:id="tecaj" layoutX="100.0" layoutY="35.0" />
+            <TextField fx:id="ukupnaCijenauEurima" alignment="CENTER" layoutX="914.0" layoutY="93.0" />
+            <Text fx:id="oznakaValute" layoutX="1075.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N/A" />
+            <ComboBox fx:id="valute" layoutX="103.0" layoutY="93.0" prefWidth="150.0" />
+            <Text layoutX="100.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Odabir valute:" />
+            <Button layoutX="554.0" layoutY="106.0" mnemonicParsing="false" onAction="#posaljiUpit" prefHeight="25.0" prefWidth="125.0" text="Pošalji upit" />
+         </children>
+      </Pane>
+   </bottom>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Matične ploče">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaNovuMaticnuPlocu" text="Dodaj novu" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Procesori">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaNoviProcesor" text="Dodaj novi" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Radne Memorije">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaNovuMemoriju" text="Dodaj novu" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Tvrdi Diskovi">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaNoviDisk" text="Dodaj novi" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

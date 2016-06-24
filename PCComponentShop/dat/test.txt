@@ -1,0 +1,1 @@
+sd, dsa, SOCKET_AM2, Maksimalan broj memorijskih modula: 1, 3232

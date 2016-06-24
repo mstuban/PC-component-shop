@@ -1,0 +1,36 @@
+
+Proizvođač matične ploče:
+MSI 
+Tip sučelja matične ploče:
+SOCKET_LGA_1151
+Proizvođač procesora:
+VIA
+Tip sučelja procesora:
+SOCKET_LGA_1151
+Brzina procesora:
+4.2 GHz
+Proizvođač radne memorije:
+Kingston
+Tip radne memorije:
+DDR3
+Kapacitet radne memorije:
+0.00195313 TB
+Broj modula radne memorije:
+3
+Proizvođač tvrdog diska:
+Epson
+Tip tvrdog diska:
+mSATA
+Broj okretaja tvrdog diska:
+7200
+Kapacitet tvrdog diska:
+1 TB
+Cijena matične ploče:
+2509 kn
+Cijena procesora:
+549 kn
+Cijena radne memorije:
+259 kn
+Cijena tvrdog diska:
+799 kn
+

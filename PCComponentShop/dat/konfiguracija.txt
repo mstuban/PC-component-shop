@@ -1,0 +1,4 @@
+Asrock , Desktop board P4I65G , SOCKET_LGA_1151, Maksimalan broj memorijskih modula: 4, 589.00 kn
+VIA, SOCKET_LGA_1151, Brzina: 4.20 GHz, 549.00 kn
+Samsung, SATA, Kapacitet: 400.00 GB, Broj okretaja: 5200, 459.00 kn
+Corsair, SDRAM, Kapacitet: 1 GB, Broj modula: 4, 149.00 kn
