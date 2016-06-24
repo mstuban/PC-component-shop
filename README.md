@@ -1,3 +1,3 @@
 # Trgovina-komponenta
 
-JavaFX aplikacija koja simulira trgovinu komponenti za računalo. Također omogućuje slanje upita za komponente web shopovima.
+JavaFX application which simulates a computer compoment shop. It also enables sending queries to web shops about the availability of certain components.
